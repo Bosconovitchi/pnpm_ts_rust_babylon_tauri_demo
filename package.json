@@ -1,0 +1,26 @@
+{
+  "name": "pnpmrust",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri dev": "tauri dev"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0-alpha.12",
+    "@tauri-apps/plugin-shell": "^2.0.0-alpha.3",
+    "babylonjs": "^6.34.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.0.0-alpha.18",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "internal-ip": "^7.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.4",
+    "vue-tsc": "^1.8.5"
+  }
+}
